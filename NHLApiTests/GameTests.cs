@@ -66,5 +66,20 @@ namespace NHLApiTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void GetGameLineScore()
+        {
+            NHLApiClient api = new NHLApiClient();
+
+            //Load Expected result from file
+            var testResponse = File.ReadAllText(@"../../../TestAPIResponses/GetGameLineScore.json");
+            var jobj = JObject.Parse(testResponse);
+            var expected = JsonConvert.DeserializeObject<LineScore>(jobj.ToString());
+
+            LineScore actual = api.GetGameLineScore(2017030325); //Jets vs Vegas WCF Game 5 2018
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

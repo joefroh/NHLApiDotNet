@@ -1,0 +1,103 @@
+{
+    "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2018. All Rights Reserved.",
+    "currentPeriod" : 3,
+    "currentPeriodOrdinal" : "3rd",
+    "currentPeriodTimeRemaining" : "Final",
+    "periods" : [ {
+      "periodType" : "REGULAR",
+      "startTime" : "2018-05-20T19:20:40Z",
+      "endTime" : "2018-05-20T19:56:39Z",
+      "num" : 1,
+      "ordinalNum" : "1st",
+      "home" : {
+        "goals" : 1,
+        "shotsOnGoal" : 13,
+        "rinkSide" : "right"
+      },
+      "away" : {
+        "goals" : 1,
+        "shotsOnGoal" : 8,
+        "rinkSide" : "left"
+      }
+    }, {
+      "periodType" : "REGULAR",
+      "startTime" : "2018-05-20T20:15:21Z",
+      "endTime" : "2018-05-20T20:54:31Z",
+      "num" : 2,
+      "ordinalNum" : "2nd",
+      "home" : {
+        "goals" : 0,
+        "shotsOnGoal" : 11,
+        "rinkSide" : "left"
+      },
+      "away" : {
+        "goals" : 1,
+        "shotsOnGoal" : 15,
+        "rinkSide" : "right"
+      }
+    }, {
+      "periodType" : "REGULAR",
+      "startTime" : "2018-05-20T21:13:26Z",
+      "endTime" : "2018-05-20T21:45:03Z",
+      "num" : 3,
+      "ordinalNum" : "3rd",
+      "home" : {
+        "goals" : 0,
+        "shotsOnGoal" : 8,
+        "rinkSide" : "right"
+      },
+      "away" : {
+        "goals" : 0,
+        "shotsOnGoal" : 9,
+        "rinkSide" : "left"
+      }
+    } ],
+    "shootoutInfo" : {
+      "away" : {
+        "scores" : 0,
+        "attempts" : 0
+      },
+      "home" : {
+        "scores" : 0,
+        "attempts" : 0
+      }
+    },
+    "teams" : {
+      "home" : {
+        "team" : {
+          "id" : 52,
+          "name" : "Winnipeg Jets",
+          "link" : "/api/v1/teams/52"
+        },
+        "goals" : 1,
+        "shotsOnGoal" : 32,
+        "goaliePulled" : false,
+        "numSkaters" : 5,
+        "powerPlay" : false
+      },
+      "away" : {
+        "team" : {
+          "id" : 54,
+          "name" : "Vegas Golden Knights",
+          "link" : "/api/v1/teams/54"
+        },
+        "goals" : 2,
+        "shotsOnGoal" : 32,
+        "goaliePulled" : false,
+        "numSkaters" : 5,
+        "powerPlay" : false
+      }
+    },
+    "powerPlayStrength" : "Even",
+    "hasShootout" : false,
+    "intermissionInfo" : {
+      "intermissionTimeRemaining" : 0,
+      "intermissionTimeElapsed" : 0,
+      "inIntermission" : false
+    },
+    "powerPlayInfo" : {
+      "situationTimeRemaining" : 0,
+      "situationTimeElapsed" : 0,
+      "inSituation" : false
+    }
+  }

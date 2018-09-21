@@ -21,6 +21,8 @@ namespace NHLApiTests
                     return GenerateResponse(@"../../../TestAPIResponses/GetCurrentRosterResult.json");
                 case "/api/v1/game/2017030325/boxscore":
                     return GenerateResponse(@"../../../TestAPIResponses/GetGameBoxScoreResult.json");
+                case "/api/v1/game/2017030325/linescore":
+                    return GenerateResponse(@"../../../TestAPIResponses/GetGameLineScore.json");
                 case "/api/v1/game/2017030325/content":
                     return GenerateResponse(@"../../../TestAPIResponses/GetGameContentResult.json");
                 case "/api/v1/schedule":

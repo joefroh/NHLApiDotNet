@@ -187,6 +187,17 @@ namespace NHLApi
             return result;
         }
 
+        public LineScore GetGameLineScore(int id)
+        {
+            var request = new RestRequest(string.Format("/api/v1/game/{0}/linescore", id));
+            var response = _restClient.Execute(request);
+            var jobj = JObject.Parse(response.Content);
+
+            var result = JsonConvert.DeserializeObject<LineScore>(jobj.ToString());
+
+            return result;
+        }
+        
         public GameContent GetGameContent(int id)
         {
             var request = new RestRequest(string.Format("/api/v1/game/{0}/content", id));
